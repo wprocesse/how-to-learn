@@ -95,7 +95,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   position: relative;
   align-items: center;
 }
@@ -143,10 +143,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-}
-
-.two-columns__paragraph_indentation {
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .digits {
@@ -198,6 +195,8 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .table__text {
@@ -227,7 +226,6 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
 }
 
 .feynman__subtitle {
@@ -242,14 +240,10 @@
 }
 
 .feynman__link {
-  width: auto;
   display: flex;
   margin-right: 48px;
   margin-left: auto;
-  height: auto;
-}
-
-.feynman__link_text {
+  justify-content: flex-end;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -275,6 +269,10 @@
 }
 
 .section-subtitle_theme_dark {
+  color: white;
+}
+
+.table_theme_dark {
   color: white;
 }
 
@@ -304,11 +302,16 @@
   margin-right: auto;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
   justify-content: space-between;
 }
 
@@ -325,32 +328,31 @@
   margin-bottom: 18px;
 }
 
-/*.footer__columns_content_info {
+.footer__columns_content_info {
   display: flex;
   flex-direction: column;
-}*/
+}
 
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
   margin-top: 0;
-  margin-bottom: 20px;
-  padding-top: 0;
 }
 
 .footer__column-links {
-  list-style-type: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  text-decoration: none;
   color: white;
   margin-bottom: 16px;
-  margin-left: 0;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
   display: flex;
   flex-direction: column;
 }
