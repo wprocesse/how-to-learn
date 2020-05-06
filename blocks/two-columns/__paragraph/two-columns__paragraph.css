@@ -2,12 +2,10 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
-.two-columns__paragraph:last-of-type {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
+.two-columns__paragraph:nth-of-type(2n) {
   margin-bottom: 0;
 }

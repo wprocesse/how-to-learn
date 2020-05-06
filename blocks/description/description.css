@@ -1,9 +1,3 @@
-@import url(../two-columns/two-columns.css);
-@import url(../two-columns/__brief/two-columns__brief.css);
-@import url(../two-columns/__main-text/two-columns__main-text.css);
-@import url(../two-columns/__paragraph/two-columns__paragraph.css);
-@import url(../two-columns/__span-accent/two-columns__span-accent.css);
-
 .description {
   margin-left: auto;
   margin-right: auto;

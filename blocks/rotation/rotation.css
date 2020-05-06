@@ -1,14 +1,13 @@
 @keyframes rotation {
   from {
-        transform: rotate(0deg);
+        transform: rotate(-15deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(345deg);
     }
 }
 
   .rotation {
-  transform: rotate(-15deg);
   animation-name: rotation;
   animation-duration: 20s;
   animation-timing-function: linear;

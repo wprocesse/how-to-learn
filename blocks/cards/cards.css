@@ -4,7 +4,7 @@
 @import url(./__title/cards__title.css);
 
 .cards {
-  width: 920px;
+  max-width: 920px;
   display: flex;
   flex-direction: row;
   margin-left: auto;
