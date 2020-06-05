@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/digits/digits.css);
