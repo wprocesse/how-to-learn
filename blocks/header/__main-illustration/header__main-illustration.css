@@ -1,10 +1,18 @@
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  position: absolute;
+  /*position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 0;*/
+  margin-bottom: 0;
+  margin-right: 0;
   background-size: contain;
   background-repeat: no-repeat;
+  grid-column: 2;
+  grid-row: 2/-1;
+  /*grid-row-start: 2;
+  grid-row-end: -1;*/
+  align-self: end;
+  justify-self: end;
   z-index: 3;
 }

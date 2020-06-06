@@ -1,4 +1,5 @@
 .digits {
+  max-width: 1600px;
   display: flex;
   flex-direction: column;
   margin-left: auto;
