@@ -6,3 +6,9 @@
   padding-top: 160px;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1440px) {
+  .oakley {
+    max-width: 1440px;
+  }
+}

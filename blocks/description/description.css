@@ -5,3 +5,9 @@
   margin-top: 100px;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1440px) {
+  .description {
+    max-width: 1440px;
+  }
+}

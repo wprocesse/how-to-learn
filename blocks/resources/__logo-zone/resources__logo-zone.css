@@ -1,12 +1,14 @@
 .resources__logo-zone {
   max-width: 1100px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
   margin-top: 80px;
   margin-bottom: 217px;
-  justify-content: center;
+  padding-left: 0;
   list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 38px;
+  justify-items: center;
+  column-gap: 7px;
 }

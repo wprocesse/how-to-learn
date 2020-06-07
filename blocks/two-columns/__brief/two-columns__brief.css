@@ -5,4 +5,8 @@
   font-weight: normal;
   color: #2f80ed;
   margin-top: 0;
+  grid-column: 1;
+  grid-row: 1;
+  align-items: start;
+  justify-items: start;
 }

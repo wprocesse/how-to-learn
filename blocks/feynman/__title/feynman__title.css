@@ -8,4 +8,13 @@
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 0;
+  grid-column: 2;
+  grid-row: 1/2;
+}
+
+@media screen and (max-width: 1440px) {
+  .feynman__title {
+    max-width: 583px;
+    font-size: 108px;
+  }
 }

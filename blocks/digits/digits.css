@@ -5,3 +5,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media screen and (max-width: 1440px) {
+  .digits {
+    max-width: 1440px;
+  }
+}
+

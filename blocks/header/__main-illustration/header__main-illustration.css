@@ -1,18 +1,21 @@
 .header__main-illustration {
   width: 765px;
   height: 608px;
-  /*position: absolute;
-  right: 0;
-  bottom: 0;*/
   margin-bottom: 0;
   margin-right: 0;
   background-size: contain;
   background-repeat: no-repeat;
   grid-column: 2;
-  grid-row: 2/-1;
-  /*grid-row-start: 2;
-  grid-row-end: -1;*/
+  grid-row: 2/4;
   align-self: end;
   justify-self: end;
+  align-items: end;
   z-index: 3;
+}
+
+@media screen and (max-width: 1440px) {
+  .header__main-illustration {
+    width: 693px;
+    height: 590px;
+  }
 }

@@ -1,3 +1,6 @@
 .footer__column_content_social {
   justify-content: stretch;
+  grid-column: 5;
+  grid-row: 1;
+  justify-self: end;
 }

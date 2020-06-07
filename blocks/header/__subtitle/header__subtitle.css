@@ -3,15 +3,19 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
- /* position: absolute;
-  left: 64px;
-  bottom: 30px;*/
   margin-left: 64px;
+  margin-top: 0;
   margin-bottom: 30px;
-  p
   z-index: 9;
-
   grid-column: 1;
   grid-row: 3;
   align-self: end;
+}
+
+@media screen and (max-width: 1440px) {
+  .header__subtitle {
+    margin-left: 58px;
+    line-height: 23px;
+    font-size: 16px;
+  }
 }

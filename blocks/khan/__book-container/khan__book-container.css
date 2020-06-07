@@ -3,4 +3,6 @@
   flex-direction: row;
   margin-top: 68px;
   overflow: hidden;
+  grid-column: 1;
+  grid-row: 6;
 }

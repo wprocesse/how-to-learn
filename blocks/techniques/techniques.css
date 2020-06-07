@@ -5,3 +5,9 @@
   margin-right: auto;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1440px) {
+  .techniques {
+    max-width: 1440px;
+  }
+}

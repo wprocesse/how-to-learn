@@ -1,0 +1,9 @@
+.table-grid_theme_dark {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, max-content);
+  column-gap: 25px;
+  row-gap: 60px;
+  justify-items: start;
+  align-items: start;
+}

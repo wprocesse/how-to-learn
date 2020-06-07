@@ -13,4 +13,8 @@
   flex-wrap: wrap;
 }
 
-
+@media screen and (max-width: 1440px) {
+  .cards {
+    max-width: 828px;
+  }
+}

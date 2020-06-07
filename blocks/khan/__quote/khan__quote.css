@@ -1,9 +1,12 @@
 .khan__quote {
-  max-width: 790px;
+  width: 62%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin-left: 0;
+  margin-right: 0;
   margin-top: 50px;
   margin-bottom: 0;
+  grid-column: 1;
+  grid-row: 3;
 }
